@@ -1,0 +1,495 @@
+
+<!DOCTYPE HTML>
+<html lang="en" class="page">
+<head>
+<meta charset="UTF-8">
+  <title>Rocket League Stats | RLTracker.pro</title>
+
+<link rel="icon" type="image/x-icon" href="/rl_favicon.ico">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<link rel="stylesheet" media="all" href="/assets/application-d3f2c9fb3060b3454547947eeafb48493a6b51c8ca33ced8d782a5e9083d8389.css" />
+<script src="/assets/application-f963c1023591fbc15b07f3e0f9cabb17b08171f030f88dcd2c6c1b67d93dfdcb.js" data-turbolinks-track="true"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="UApB6+2Go4qwvorkpTDzzaYvVZSb19R2WFIKuor6jTU8OXlTZ4k8Ty/VOmgrVPWCg/lKYouXN7nOb6zLSc/TGw==" />
+<meta name="action-cable-url" content="/cable" />
+<script type="text\/javascript" src="//pagead2.googlesyndication.com\/pagead\/show_ads.js">
+</script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <meta name="description" content="Compare with Rocket League Players from all over the world and track your statistics live. Always up to date! Steam, Xbox and PS4!">
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/style/css/ie8.css" media="all">
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="/style/css/ie9.css" media="all">
+<![endif]-->
+<script data-ad-client="ca-pub-3000815205397569" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21625989013/RLTracker.pro_HeaderSlot', [[728, 90], [320, 50]], 'div-gpt-ad-1502458562789-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21625989013/RLTracker.pro_TopMPU', [[300, 600], [160, 600], [300, 250]], 'div-gpt-ad-1502457275792-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21625989013/RLTracker.pro_FooterSlot', [[728, 90], [320, 50]], 'div-gpt-ad-1502458533707-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+  <body class="" data-user-id="">
+      <div class="whole_wrapper">
+        <div class="container nav main_nav" style="z-index: 10000;">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="row">
+                <div class="col-sm-3 col-xs-2" style="position: relative;z-index:1000">
+                  <a href="/" class="pull-left">
+                    <img class="logo" alt="rocket-league-stats" src="/assets/rl_logo-69351bcb9a7c88a286c1d11070e82f87553b08f08e95eadcae5dbd28e1b9adcc.png" />
+                    <img class="logo_small" alt="rocket-league-stats" src="/assets/logo-icon-rl-d72690c909b6b9826d9b9b3be57dd081dc05ac9b3b6bc99328a68c544fde6769.png" />
+                  </a>
+                  
+                </div>
+                <div class="col-sm-7 col-xs-8">
+                  <ul class="nav_ul">
+  <li><a href="" class="look_up"><i class="fa fa-search" aria-hidden="true"></i><span class="remove_the_names lookup_remove"><span class="smaller_nav">Profile </span>Lookup</span></a></li>
+  <li><a href="/trades"><i class="fa fa-exchange" aria-hidden="true"></i><span class="remove_the_names"><span class="smaller_nav">Item </span>Trading</span></a></li>
+  <li><a href="/tier_breakdown"><i class="fa fa-line-chart" aria-hidden="true"></i><span class="remove_the_names"><span class="smaller_nav">Rank Tiers</span></span></a></li>
+  <li><a href="/live_tracker"><i class="fa fa-terminal" aria-hidden="true"></i><span class="remove_the_names"><span class="smaller_nav">Live </span>Tracker</a></span></li>
+  <li><a href="/prices"><i class="fa fa-key" aria-hidden="true"></i><span class="remove_the_names">Price<span class="remove_scam_name"> List</span></span></a></li>
+  <li><a href="https://discord.gg/JA99kXe" target='_BLANK'><i class="fa fa-trophy" aria-hidden="true"></i><span class="remove_the_names"><span class="move_five">Giveaway </span> </span></a></li>
+</ul>
+<script type="text/javascript">
+$(document).ready(function(){
+  var overflowTimeout = null;
+  $(".close_search").on("click",function(){
+    clearTimeout(overflowTimeout);
+    $(".search_bar").removeClass("out_bitch").css("overflow", "hidden");
+  })
+  $(".whoops").off("click").on("click",function(){
+    $(".whoops_text").toggleClass("active")
+  })
+  $(".look_up").on("click",function(event){
+    event.preventDefault();
+    if(!$(".search_bar").hasClass("out_bitch")){
+      overflowTimeout = setTimeout(function () {
+        $(".search_bar").css("overflow", "visible");
+      }, 500);
+      clearTimeout(timer);
+      $(".search_form input").focus()
+      timeout = setTimeout(function(){
+        $(".search_bar").off("clickoutside").on("clickoutside" ,function(){
+          $(".search_bar").removeClass("out_bitch").css("overflow", "hidden");
+          $(".search_bar").off("clickoutside")
+          clearTimeout(timer);
+        })
+      },300)
+    }else{
+      clearTimeout(overflowTimeout);
+      $(".search_bar").off("clickoutside").css("overflow", "hidden");
+    }
+    $(".search_bar").toggleClass("out_bitch")
+  })
+})
+</script>
+
+                </div>
+                <div class="col-sm-2 nav_login" style="">
+                  <a href="/users/sign_in">
+                    <div class="avatar_box pull-right " style="">
+                      <div class="status_nav online"></div>
+                    </div>
+                  </a>
+                  <div class="login_box pull-right">
+                      <a data-toggle="modal" class="login_login" href="#login">Login</a>
+                      <a data-toggle="modal" class="login_signup" href="#sign_up">Sign up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container main_nav_sec">
+          <div class="row" style="position:relative">
+            <a class="patreon_href" href="/premium">
+              <div class="patreon_overlay ">
+
+              </div>
+            </a>
+            <div class="col-xs-12 header search_bar" style="position:absolute;z-index:9995;">
+              <div class="lookup_form">
+  <form class="search_form" action="/profiles/lookup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="iRIZGYeiMHOWwl5hKgfcgaFli5Rv49xw/FIUQqlXY2DlISGhDa2vtgmp7u2kY9rOhLOUYn+jP79qb7IzamI9Tg==" />
+    <div class="choose_platform_small">
+      <span class="platform">Steam</span> <img class="steam top_img" alt="steam-search" src="/assets/steam-a6dd860ebcd5d4abe98e8c618879c4c5639cb289b14a7caf4fd2666c5b314c26.png" /><i class="material-icons">arrow_drop_down</i>
+      <div class="platform_choose hidden">
+        <ul>
+          <li data-id="1"><span>Steam</span><img class="steam" alt="steam-search" src="/assets/steam-a6dd860ebcd5d4abe98e8c618879c4c5639cb289b14a7caf4fd2666c5b314c26.png" /></li>
+          <li data-id="2"><span>PS4</span><img class="ps4" alt="ps4-search" src="/assets/PS4-031ca65889fb87bc5b11225a56564488c7b77efd16ace684eede6cb4d46b813b.png" /></li>
+          <li data-id="3"><span>Xbox</span><img class="xbox" alt="xbox-search" src="/assets/xbox-0de98a5cea4bd12f9e69ec0a0209a9d9f4f7753fd28c9cdfed582ae85a9005f2.png" /></li>
+          <li data-id="4"><span>All</span><img class="all" alt="all_search" src="/assets/all-388208c462edc7e5b24dc723b4f766ed6456f463e62c25342d105736102ea319.png" /></li>
+        </ul>
+      </div>
+    </div>
+    <input type="text" name="account" id="account" class="nav_search" placeholder="Look up your stats - Enter your profile ID or vanity url!" autocomplete="off" />
+    <input type="hidden" name="platform_id" id="platform_id" value="1" />
+    <div class="send_form">&nbsp;<i class="material-icons">search</i></div>
+</form>
+  <style type="text/css">
+    .top_img.all{
+      height: 18px;
+      float: right;
+      margin-right: 10px;
+    }
+    li .all{
+      width: 25px!important;
+      margin-right:3px;
+    }
+  </style>
+</div>
+
+              <i class="fa fa-times fa-4x pull-right close_search" style="cursor:pointer;position:absolute;top:-1px;right:5px" ></i>
+            </div>
+            <div class="col-xs-12 header" style="position:relative;z-index: 9994;">
+              <div class="row">
+                <div class="col-sm-3 col-xs-2 history_wrapper" style="position: absolute;left: 0;top: 9px;">
+                  <div class="pull-left history_smaller_wrapper" style="padding:9px;position: absolute;width: 370px;">
+                      <span class="pull-left" style="margin-right:10px"><span class="smaller_history">Profile Search </span>History:</span>
+                      <ul class="history_drop_down pull-left">
+                          <a href="#">
+                            <span style="padding:3px;margin-right:5px;">Nothing found</span>
+                          </a>
+                      </ul>
+                      <i class="material-icons pull-left toggle_history" style="padding: 0px 0px 0 14px;margin-left: -15px;">arrow_drop_down</i>
+                  </div>
+                </div>
+                <div class="col-sm-7 col-xs-8 col-xs-offset-2 col-sm-offset-3 second_nav_cont">
+                  <ul class="sec_nav_ul">
+  <li><a href="/scam_list"><i class="fa fa-exclamation" aria-hidden="true"></i><span class='last_text_hide'>Scammer</span><span class="scammer_hide"> List</span></a></li>
+    <li  class="first_drop_down_remove"><a href="/discord"><img src="/assets/o/discord-dd39a41914dbef2652815352986228463eaef2feb0028d0794628f2c8b281fdc.png" style="height: 18px;width: auto;margin-right: 3px;margin-top: -2px;", alt="discord-bot"><span class="remove_bots">Discord </span>Bot</a></li>
+
+    <li class="second_drop_down_remove"><a href="/premium"><i class="fa fa-star" aria-hidden="true"></i><span class="remove_the_names">Premium</span></a></li>
+</ul>
+
+                </div>
+              </div>
+              <h1 class="take_this_title_its_dangerous_out_there"><p>$#@%!</p><div class="pull-right actions"></div></h1>
+            </div>
+          </div>
+        </div>
+        <div class="container main-wrapper" style="">
+          <div class="row">
+            
+            
+            <div class="col-sm-10 col-sm-offset-1" id="rip_col" style="clear:both">
+              <div class="main_box blog blog_posts">
+  <h4>404 - Page not found</h4>
+  <div class="content_box">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8 ">
+          <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/ApprehensiveCalmIguana' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+          </div>
+          <div class="col-xs-4" style="margin-top:150px">
+            Your request was aborted because the desired page could not be found. 
+            If you think that this is a developer issue, please contact Yixn on our <a href="https://discord.gg/GajAywT">Discord</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+        
+    <div  id="login" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Sign In</h4>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4" style="color:white;border-right:solid grey 1px">
+                <div>Authorize with</div>
+                <a href="/auth/steam" class="cols-xs-12">
+                  <div class="btn btn-primary btn-small pull-left" style="background:#212121;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      <img class="platform_icon" src="/assets/platforms/steam-e99c23c41d76d5d13868ea532e815d7fd6696771c263d4336d20346ed4875858.png" alt="Steam" />
+                    </div>
+                  </div>
+                  <div class="btn btn-primary btn-small pull-left" style="background:#212121;width:80px;margin-left: -6px;text-align:left;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      Steam
+                    </div>
+                  </div>
+                </a>
+
+                <div style="clear:both"></div>
+                <a href="/discord/auth" class="cols-xs-12">
+                  <div class="btn btn-primary btn-small pull-left" style="background:rgb(115,137,214);margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      <img class="platform_icon" src="/assets/platforms/discordlogo-d2efe994cc89b53fc4dd401333563ae3415ca94bf079f3b8e883f9474e117f2b.png" alt="Discordlogo" />
+                    </div>
+                  </div>
+                  <div class="btn btn-primary btn-small pull-left" style="background:rgb(115,137,214);width:80px;margin-left: -6px;text-align:left;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      Discord
+                    </div>
+                  </div>
+                </a>
+                <div style="clear:both"></div>
+                <a href="/auth/twitch" class="cols-xs-12">
+                  <div class="btn btn-primary btn-small pull-left" style="background:#551A8B;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      <img class="platform_icon" src="/assets/platforms/twitch-29f8c7a3f8bbdd4b0a505606ccce947e297ea2755c886d7f1da6536ae099dc6d.png" alt="Twitch" />
+                    </div>
+                  </div>
+                  <div class="btn btn-primary btn-small pull-left" style="background:#551A8B;width:80px;margin-left: -6px;text-align:left;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      Twitch
+                    </div>
+                  </div>
+                </a>
+                <div style="clear:both"></div>
+                <a href="/auth/reddit" class="cols-xs-12">
+                  <div class="btn btn-primary btn-small pull-left" style="background:#ff4500;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      <img class="platform_icon" src="/assets/platforms/reddit-a461f8f751951f040460f37f322f61e6f7a14402326b4a6e78174a13e17fe423.png" alt="Reddit" />
+                    </div>
+                  </div>
+                  <div class="btn btn-primary btn-small pull-left" style="background:#ff4500;width:80px;margin-left: -6px;text-align:left;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      Reddit
+                    </div>
+                  </div>
+                </a>
+                <!--
+                <div style="clear:both"></div>
+                <a href="/auth/twitter" class="cols-xs-12">
+                  <div class="btn btn-primary btn-small pull-left" style="background:#4099ff;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      <img class="platform_icon" src="/assets/platforms/twitre-28ce324412abd4ce8b78e5af59cc5e0f7699653f6b2624e0e4c4e7911916d9b6.png" alt="Twitre" />
+                    </div>
+                  </div>
+                  <div class="btn btn-primary btn-small pull-left" style="background:#4099ff;width:80px;margin-left: -6px;text-align:left;margin-bottom: 3px;margin-top:3px">
+                    <div class="lower-btn">
+                      Twitter
+                    </div>
+                  </div>
+                </a>
+                -->
+                <div style="clear:both"></div>
+                </div>
+                <div class="col-sm-8">
+                <p>
+                  <form class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hK65AXPh1Pxdy73exqJirPnctsAmDSXHulDzmKb7d3DonYG5+e5LOcKgDVJIxmTj3AqpNjZNxggsbVXpZc4pXg==" />
+                  <div><label for="user_login">Login</label><br />
+                  <input autofocus="autofocus" type="text" name="user[login]" id="user_login" /></div>
+                  <div><label for="user_password">Password</label><br />
+                  <input type="password" name="user[password]" id="user_password" /></div>
+                    <div><input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" /> <label for="user_remember_me">Remember me</label></div>
+                  <button name="button" type="submit" class="action_btn action_btn_orange sign_in_btn pull-right">
+                      Sign In <i class="fa fa-sign-in"></i>
+</button>                  <div style="clear:both"></div>
+                  <div class="action_btn action_btn_orange forgot_pw_btn pull-right">
+                    <a href="/users/password/new">I forgot my password</a>
+                  </div>
+</form>                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    </div><!-- /.modal -->
+
+<style type="text/css">
+  .platform_icon{
+    height: 18px;
+    width: 18px;
+  }
+  .oppcity_null{
+    opacity: 0;
+  }
+  #user_login{
+    padding-left: 0;
+  }
+</style>
+
+        
+
+<div  id="sign_up" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Sign Up</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          <form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/xmWXo/nAVBmsRIkqfs2cZrmYho7BVUC8W3EMCKQNnuTKq7mBeielfnaoqgnnzA+vzB97CtFts1nUGJB4aVoVQ==" />
+            
+            <div><label for="user_username">Username</label><br />
+            <input autofocus="autofocus" type="text" name="user[username]" id="user_username" /></div>
+            <div><label for="user_email">Email</label><br />
+            <input type="email" name="user[email]" id="user_email" /></div>
+            <div><label for="user_password">Password</label><br />
+            <input type="password" name="user[password]" id="user_password" /></div>
+            <div><label for="user_password_confirmation">Password confirmation</label><br />
+            <input type="password" name="user[password_confirmation]" id="user_password_confirmation" /></div>
+            <input type="hidden" name="user[referral_code]" id="user_referral_code" />
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<div class="g-recaptcha " data-sitekey="6Lct8CsUAAAAAOodKEvS0RvMRImyEZmDs7RoiEqD"></div>
+          <noscript>
+            <div>
+              <div style="width: 302px; height: 422px; position: relative;">
+                <div style="width: 302px; height: 422px; position: absolute;">
+                  <iframe
+                    src="https://www.google.com/recaptcha/api/fallback?k=6Lct8CsUAAAAAOodKEvS0RvMRImyEZmDs7RoiEqD"
+                    frameborder="0" scrolling="no"
+                    style="width: 302px; height:422px; border-style: none;">
+                  </iframe>
+                </div>
+              </div>
+              <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                  margin: 10px 25px; padding: 0px; resize: none;" value="">
+                </textarea>
+              </div>
+            </div>
+          </noscript>
+
+
+            <button name="button" type="submit" class="action_btn action_btn_orange sign_in_btn pull-right">
+              Sign up <i class="fa fa-user-plus"></i>
+</button>            <div style="clear:both"></div>
+</form>        </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166343270-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166343270-1');
+</script>
+
+
+      
+          <script type="text/javascript">
+    $(".send_form").on("click",function(){
+      $(".search_form").submit()
+    })
+    $(".choose_platform_small").bind( "clickoutside",function(event){
+      $(".platform_choose").addClass("hidden")
+    })
+    $(".choose_platform_small").on("click",function(){
+      $(".platform_choose").toggleClass("hidden")
+    })
+    $(".platform_choose li").on("click",function(){
+      $(".platform").html($(this).find("span").html())
+      $(".choose_platform_small .top_img").attr("src",$(this).find("img").attr("src")).removeClass("ps4 steam").addClass($(this).find("img").attr('class'))
+      $("#platform_id").val($(this).data("id"))
+    })
+    </script>
+        <script async src="/ads.js?load=true"></script>
+        <script type="text/javascript">
+          $(function (){
+            $(".mobile_click").on("click",function(e){
+              if(window.width() > 836){
+                e.preventDefault();
+              }
+            })
+            $(".toggle_history").on("click",function(){
+              $(".history_drop_down").toggleClass("active")
+            })
+            $('[data-toggle="tooltip"]').tooltip()
+
+              $(".modal").on("show.bs.modal",function(){
+                $(".modal").modal("hide")
+              })
+
+            $(".side_nav_trigger").on("click",function(){
+              $(".side-nav").toggleClass("right")
+            })
+            $(".alert-rails").addClass("ready")
+            nothing_to_hide = false
+            callo()
+          });
+          function createCookie(name,value,half_days) {
+              var expires = "";
+              if (half_days) {
+                  var date = new Date();
+                  date.setTime(date.getTime() + (half_days*12*60*60*1000));
+                  expires = "; expires=" + date.toUTCString();
+              }
+              document.cookie = name + "=" + value + expires + "; path=/";
+          }
+
+          function readCookie(name) {
+              var nameEQ = name + "=";
+              var ca = document.cookie.split(';');
+              for(var i=0;i < ca.length;i++) {
+                  var c = ca[i];
+                  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                  if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+              }
+              return null;
+          }
+
+          function eraseCookie(name) {
+              createCookie(name,"",-1);
+          }
+          function callo(){
+            setTimeout(function(){
+                adBlock = false
+                if(document.getElementById('fatgEwevjsBm')){
+
+                } else {
+                  adBlock = true
+                  console.log("bad bad boy")
+                  $(".glory").remove()
+                  if (!readCookie("adblock")) {
+                    if($(".pfft").length >0){
+                      $(".pfft").modal()
+                      createCookie("adblock",true,1)
+                    }
+                  }
+                  $(".ad_block_warning").show()
+                }
+            },1000)
+          }
+        </script>
+
+      
+  </body>
+</html>
